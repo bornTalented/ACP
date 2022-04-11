@@ -3,6 +3,19 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+#______________________________________
+# XML docs
+*.xml
+
+# Excluding embeddings files
+Embeddings/Word2Vec/
+Embeddings/glove.6B/
+
+
+# Excluding results dir
+Results/
+#______________________________________
+
 # C extensions
 *.so
 
@@ -14,7 +27,7 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
+lib/s
 lib64/
 parts/
 sdist/
